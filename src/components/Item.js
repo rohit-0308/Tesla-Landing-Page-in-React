@@ -9,10 +9,12 @@ const Item = ({
   descLink,
   backgroundImg,
   leftBtnLink,
+  leftBtnText,
   rightBtnText,
   rightBtnLink,
   twoButtons,
   first,
+  last
 }) => {
   return (
     <div className="item" style={{
@@ -27,18 +29,33 @@ const Item = ({
         </div>
         <div className="item__lowerThird">
           <div className="item__buttons">
-            <Buttons imp="primary" text={leftBtnLink} link={leftBtnLink} />
+            <Buttons imp="primary" text={leftBtnText} link={leftBtnLink} />
             {twoButtons && (
               <Buttons imp='secondary' text={rightBtnText} link={rightBtnLink}/>
             )}
           </div>
           {first && (
             <div className="item__expand">
-              <ExpandMoreIcon />
+              <ExpandMoreIcon style={{ fontSize: 50 }} />
             </div>
           )}
+
+          
         </div>
+        {last && (
+            <div className="footer">
+              <p>Tesla ©️ 2021</p>
+              <p>Privacy & Legal</p>
+              <p>Contact</p>
+              <p>Careers</p>
+              <p>Get Newsletter</p>
+              <p>News</p>
+              <p>Forums</p>
+              <p>Locations</p>
+            </div>
+          )}
       </div>
+      
     </div>
   );
 };

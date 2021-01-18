@@ -6,28 +6,33 @@
   width: 100vw;
   top: 0;
   margin: 15px;
-  margin-top: 15px;
+  margin-top: 10px;
   z-index: 100;
 }
 
 .header__logo {
-  height: 24px;
-  width: 100px;
+  /* height: 24px;
+  width: 100px; */
   margin-top: 7px;
+  cursor: pointer;
 }
 
 .header__center {
   flex: 1;
+  margin-left: 120px;
   display: flex;
   justify-content: center;
 }
 
 .header__center > p {
+  font-size: 14px;
   margin: 10px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .header__right {
+  padding-right: 13px;
   display: flex;
   justify-content: flex-end;
   text-transform: uppercase;
@@ -35,4 +40,11 @@
 
 .header__right > p {
   margin: 10px;
+  cursor: pointer;
+}
+
+.menu{
+  margin-right: 20px;
+  margin-top: 6.5px;
+  cursor: pointer;
 }

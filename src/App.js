@@ -23,6 +23,7 @@ function App() {
           descLink=''
           backgroundImg={SolarPanels}
           leftBtnLink=''
+          leftBtnText='ORDER NOW'
           rightBtnText='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
@@ -34,6 +35,7 @@ function App() {
           descLink=''
           backgroundImg={ModelS}
           leftBtnLink=''
+          leftBtnText='CUSTOM ORDER'
           rightBtnText='EXISTING INVENTORY'
           rightBtnLink=''
           twoButtons='true'
@@ -44,6 +46,7 @@ function App() {
           descLink=''
           backgroundImg={Model3}
           leftBtnLink=''
+          leftBtnText='CUSTOM ORDER'
           rightBtnText='EXISTING INVENTORY'
           rightBtnLink=''
           twoButtons='true'
@@ -54,6 +57,7 @@ function App() {
           descLink=''
           backgroundImg={ModelX}
           leftBtnLink=''
+          leftBtnText='CUSTOM ORDER'
           rightBtnText='EXISTING INVENTORY'
           rightBtnLink=''
           twoButtons='true'
@@ -65,6 +69,7 @@ function App() {
           descLink=''
           backgroundImg={ModelY}
           leftBtnLink=''
+          leftBtnText='CUSTOM ORDER'
           rightBtnText='EXISTING INVENTORY'
           rightBtnLink=''
           twoButtons='true'
@@ -76,6 +81,7 @@ function App() {
           descLink=''
           backgroundImg={SolarRoof}
           leftBtnLink=''
+          leftBtnText='ORDER NOW'
           rightBtnText='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
@@ -86,8 +92,9 @@ function App() {
           descLink=''
           backgroundImg={Accessories}
           leftBtnLink=''
-          rightBtnText='SHOP NOW'
+          leftBtnText='SHOP NOW'
           rightBtnLink=''
+          last
         />
       </div>
     </div>
